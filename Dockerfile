@@ -17,7 +17,7 @@ WORKDIR /app
 COPY . .
 
 # This Dockerfile Created By Mr. Ankush Yadav.  Github.com/Mswpresents
-RUN pip3 install --no-cache-dir --upgrade --requirement Installer
+RUN pip3 install --no-cache-dir --upgrade --requirement requirements.txt
 
 # This Dockerfile Created By Mr. Ankush Yadav.  Github.com/Mswpresents
 CMD ["python3", "modules/main.py"]
